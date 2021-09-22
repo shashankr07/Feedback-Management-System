@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!doctype html>
+  <html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Hello, Feed</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .font {
+        font-size: 20px;
+      }
+
+      @media (max-width:990px) {
+
+        .heading {
+          margin: auto;
+        }
+      }
+
+      .content {
+        height: 600px;
+        background: url('https://www.callcentrehelper.com/images/stories/2020/01/holding-star-760.jpg') no-repeat;
+        /* background-attachment: fixed; */
+        /* background-position:  right; */
+
+        background-size: cover;
+
+      }
+
+      .text {
+        font-size: 50px;
+        font-weight: bold;
+         margin-top :20px 70px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         padding: 140px; 
+
+      }
+
+      .typing {
+        width: 900px;
+        height: 60px;
+         margin:0px 150px;
+         
+      }
+
+      .main {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .cards{
+        display: flex;
+        justify-content: center;
+        padding-top:45px;
+        background-color: black;
+        flex-wrap: wrap;
+        
+      }
+      .internal{
+        margin: 0px 20px;
+      }
+      .card-body{
+       
+        background-color: rgb(38, 248, 231);
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid ">
+        <a class="navbar-brand heading" style="color: white; font-size: 25px;" href="HomePage.html"><strong>Feed-Bag</strong></a>
+        <button class="navbar-toggler" style="background-color: white;" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" style="background-color: white;"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-3">
+              <a class="nav-link font " style="color: white;" href="Regestration page.html">Registration</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link font" style="color: white;" href="loginPage.html">Login</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link font" style="color: white;" href="businessRegistration.html">Business Registration</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid content">
+      <div class="main">
+
+        <p class="text">Feedback is the breakfast of champions.
+          </p>
+        <div class="input-group ">
+          <form class="form-inline d-flex typing">
+            <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success  " style="background-color: rgb(0, 204, 255); width: 250px;" 
+              type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid  cards ">
+
+      <div class="card internal gx-0" style="width: 18rem;">
+        <img
+          src="https://static.scientificamerican.com/sciam/cache/file/4E0744CD-793A-4EF8-B550B54F7F2C4406_source.jpg"  width=450 height=200
+          class="card-img-top" alt="...">
+        <div class="card-body gx-0">
+          <h5 class="card-title">Nature</h5>
+          <p class="card-text">Idea or Start-up based on Nature . Are listed here for your honest feedback .</p>
+          <a href="#" class="btn btn-primary">Click Here</a>
+        </div>
+      </div>
+      <div class="card internal" style="width: 18rem;">
+        <img
+          src="https://cdn.mos.cms.futurecdn.net/8bEfxy8skS6fUVZnfaLWxj.jpg"  width=450 height=200
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Technology</h5>
+          <p class="card-text">Idea or Start-up based on Technology . Are listed here for your honest feedback .</p>
+          <a href="#" class="btn btn-primary">Click Here</a>
+        </div>
+      </div>
+      <div class="card internal" style="width: 18rem;">
+        <img
+          src="https://leverageedu.com/blog/wp-content/uploads/2019/11/Modern-Education.png" width=450 height=200
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Education</h5>
+          <p class="card-text">Idea or Start-up based on Education . Are listed here for your honest feedback .</p>
+          <a href="#" class="btn btn-primary">Click Here</a>
+        </div>
+      </div>
+      <div class="card internal" style="width: 18rem;">
+        <img
+          src="https://uploads-ssl.webflow.com/600b3339cfb564d294dee950/600dfe1b6815a9a4e04535e1_healthcare-workers.jpg"  width=450 height=200
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Health</h5>
+          <p class="card-text">Idea or Start-up based on Health . Are listed here for your honest feedback .</p>
+          <a href="#" class="btn btn-primary">Click Here</a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
+
+  </html>
+</body>
+
+</html>
